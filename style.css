@@ -39,6 +39,13 @@ header {
     background-color: gainsboro;
     height: auto;
 
+
+
+}
+ .main-section .main-info .imagen-personal{
+background-position: center;
+
+  
 }
 .main-section .main-info h2{
     font-size: 1.8rem;
@@ -48,6 +55,7 @@ header {
 .main-section .main-info img{
 width: 150px;
 height: 150px;
+
 
 }
 
