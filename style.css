@@ -33,17 +33,25 @@ header {
 .main-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
 
 }
 .main-section .main-info{
     background-color: gainsboro;
     height: auto;
+  
 
 
 
 }
  .main-section .main-info .imagen-personal{
 background-position: center;
+background-image: url("./0b423f3553da26e886592e8621284a09-dibujado-a-mano-cr-neo-samurai.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 100%;
+height: 200px;
 
   
 }
@@ -71,4 +79,8 @@ height: 150px;
 .main-section .main-info-laboral p{
     font-size: 1.4rem;
     text-align: center;
+}
+.lenguajes-programacion{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
